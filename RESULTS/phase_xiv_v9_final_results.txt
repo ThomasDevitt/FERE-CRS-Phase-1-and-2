@@ -1,0 +1,236 @@
+
+
+2025-08-19 21:35:30,499 - INFO - phase_xiv_prototype - LLM Interface initialized.
+
+================================================================================
+  FERE-CRS II, Phase XIV: Executing Test Suite on Integrated Agent (v9.0)
+================================================================================
+2025-08-19 21:35:30,500 - INFO - phase_xiv_prototype - IntegratedAgent_v9 (Certainty-Gated) initialized.
+
+
+==================== [ STARTING TEST CASE: 1.1_Historical_Analysis ] ====================
+
+1. PRIMING AGENT'S BELIEF STATE...
+2025-08-19 21:35:30,501 - INFO - phase_xiv_prototype - Agent primed with context 'Factors contributing to the decline and fall of the Roman Republic.' and 4 exemplars.
+
+2. PROCESSING EVIDENCE STREAM...
+
+---[ Evidence Item 1 ]---
+Presented with: "The crossing of the Rubicon by Julius Caesar was a direct challenge to the Senate's power."
+2025-08-19 21:35:30,502 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The crossing of the Rubicon by Julius Caesar was a direct challenge to the Senate's power."
+2025-08-19 21:35:48,939 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:35:48,940 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:35:48,941 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:35:48,942 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 5
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ASSIMILATION'.
+
+---[ Evidence Item 2 ]---
+Presented with: "The establishment of Constantinople as a new capital shifted the empire's focus eastward."
+2025-08-19 21:35:48,944 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The establishment of Constantinople as a new capital shifted the empire's focus eastward."
+2025-08-19 21:36:06,908 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30']
+2025-08-19 21:36:06,908 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.3000
+2025-08-19 21:36:06,909 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: REJECTION (Low Coherence: R=0.30 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'ADAPTATION'.
+
+---[ Evidence Item 3 ]---
+Presented with: "The codification of Roman law under Justinian I preserved legal traditions for centuries."
+2025-08-19 21:36:06,912 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The codification of Roman law under Justinian I preserved legal traditions for centuries."
+2025-08-19 21:36:24,974 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.10', '0.10', '0.10', '0.20', '0.20', '0.10', '0.10', '0.10', '0.10', '0.20', '0.10']
+2025-08-19 21:36:24,974 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.1273
+2025-08-19 21:36:24,975 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0445
+JUDGMENT: REJECTION (Low Coherence: R=0.13 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'ADAPTATION'.
+
+---[ Evidence Item 4 ]---
+Presented with: "The invention of the printing press in the 15th century revolutionized European society."
+2025-08-19 21:36:24,979 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The invention of the printing press in the 15th century revolutionized European society."
+2025-08-19 21:36:42,578 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00']
+2025-08-19 21:36:42,579 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.0000
+2025-08-19 21:36:42,583 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: REJECTION (Low Coherence: R=0.00 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'REJECTION'.
+
+==================== [ COMPLETED TEST CASE: 1.1_Historical_Analysis ] ====================
+2025-08-19 21:36:42,603 - INFO - phase_xiv_prototype - IntegratedAgent_v9 (Certainty-Gated) initialized.
+
+
+==================== [ STARTING TEST CASE: 1.2_Technical_Troubleshooting ] ====================
+
+1. PRIMING AGENT'S BELIEF STATE...
+2025-08-19 21:36:42,610 - INFO - phase_xiv_prototype - Agent primed with context 'Common causes of poor performance in Python web applications.' and 4 exemplars.
+
+2. PROCESSING EVIDENCE STREAM...
+
+---[ Evidence Item 1 ]---
+Presented with: "An N+1 query problem in an ORM is a classic example of inefficient database access."
+2025-08-19 21:36:42,618 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "An N+1 query problem in an ORM is a classic example of inefficient database access."
+2025-08-19 21:37:00,726 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:37:00,726 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:37:00,730 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:37:00,740 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 5
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ASSIMILATION'.
+
+---[ Evidence Item 2 ]---
+Presented with: "High network latency between a server and a remote database can introduce significant delays."
+2025-08-19 21:37:00,746 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "High network latency between a server and a remote database can introduce significant delays."
+2025-08-19 21:37:19,024 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:37:19,025 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:37:19,029 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:37:19,037 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 6
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ADAPTATION'.
+
+---[ Evidence Item 3 ]---
+Presented with: "A misconfigured load balancer can fail to distribute traffic evenly, overloading one application server."
+2025-08-19 21:37:19,052 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "A misconfigured load balancer can fail to distribute traffic evenly, overloading one application server."
+2025-08-19 21:37:37,120 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:37:37,121 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:37:37,125 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:37:37,133 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 7
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ADAPTATION'.
+
+---[ Evidence Item 4 ]---
+Presented with: "The syntax of the Python `for` loop is defined in the language reference."
+2025-08-19 21:37:37,139 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The syntax of the Python `for` loop is defined in the language reference."
+2025-08-19 21:37:55,040 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.10', '0.00', '0.00', '0.00']
+2025-08-19 21:37:55,041 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.0091
+2025-08-19 21:37:55,045 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0287
+JUDGMENT: REJECTION (Low Coherence: R=0.01 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'REJECTION'.
+
+==================== [ COMPLETED TEST CASE: 1.2_Technical_Troubleshooting ] ====================
+2025-08-19 21:37:55,056 - INFO - phase_xiv_prototype - IntegratedAgent_v9 (Certainty-Gated) initialized.
+
+
+==================== [ STARTING TEST CASE: 2.1_Rapid_Conceptual_Shift ] ====================
+
+1. PRIMING AGENT'S BELIEF STATE...
+2025-08-19 21:37:55,060 - INFO - phase_xiv_prototype - Agent primed with context 'Facts about large, herbivorous mammals found in Africa.' and 4 exemplars.
+
+2. PROCESSING EVIDENCE STREAM...
+
+---[ Evidence Item 1 ]---
+Presented with: "The African buffalo is a large bovine and is not domesticated."
+2025-08-19 21:37:55,070 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The African buffalo is a large bovine and is not domesticated."
+2025-08-19 21:38:13,150 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:38:13,150 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:38:13,154 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:38:13,163 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 5
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ASSIMILATION'.
+
+---[ Evidence Item 2 ]---
+Presented with: "Zebras are known for their distinctive black and white stripes."
+2025-08-19 21:38:13,177 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "Zebras are known for their distinctive black and white stripes."
+2025-08-19 21:38:31,202 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:38:31,203 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:38:31,206 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:38:31,215 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 6
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ASSIMILATION'.
+
+---[ Evidence Item 3 ]---
+Presented with: "The Python programming language is known for its readable syntax."
+2025-08-19 21:38:31,221 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The Python programming language is known for its readable syntax."
+2025-08-19 21:38:48,963 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00']
+2025-08-19 21:38:48,964 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.0000
+2025-08-19 21:38:48,968 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: REJECTION (Low Coherence: R=0.00 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'REJECTION'.
+
+---[ Evidence Item 4 ]---
+Presented with: "A relational database stores data in structured tables."
+2025-08-19 21:38:48,980 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "A relational database stores data in structured tables."
+2025-08-19 21:39:06,844 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00']
+2025-08-19 21:39:06,845 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.0000
+2025-08-19 21:39:06,853 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: REJECTION (Low Coherence: R=0.00 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'REJECTION'.
+
+==================== [ COMPLETED TEST CASE: 2.1_Rapid_Conceptual_Shift ] ====================
+2025-08-19 21:39:06,860 - INFO - phase_xiv_prototype - IntegratedAgent_v9 (Certainty-Gated) initialized.
+
+
+==================== [ STARTING TEST CASE: 2.2_Conceptual_Contradiction ] ====================
+
+1. PRIMING AGENT'S BELIEF STATE...
+2025-08-19 21:39:06,864 - INFO - phase_xiv_prototype - Agent primed with context 'Facts about large, herbivorous mammals found in Africa.' and 2 exemplars.
+
+2. PROCESSING EVIDENCE STREAM...
+
+---[ Evidence Item 1 ]---
+Presented with: "The African bush elephant is a small predator known for its speed."
+2025-08-19 21:39:06,874 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The African bush elephant is a small predator known for its speed."
+2025-08-19 21:39:24,678 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00', '0.00']
+2025-08-19 21:39:24,679 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.0000
+2025-08-19 21:39:24,682 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: REJECTION (Low Coherence: R=0.00 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'REJECTION'.
+
+==================== [ COMPLETED TEST CASE: 2.2_Conceptual_Contradiction ] ====================
+2025-08-19 21:39:24,695 - INFO - phase_xiv_prototype - IntegratedAgent_v9 (Certainty-Gated) initialized.
+
+
+==================== [ STARTING TEST CASE: 2.3_High_Ambiguity_Stream ] ====================
+
+1. PRIMING AGENT'S BELIEF STATE...
+2025-08-19 21:39:24,705 - INFO - phase_xiv_prototype - Agent primed with context 'Facts about large, herbivorous mammals found in Africa.' and 3 exemplars.
+
+2. PROCESSING EVIDENCE STREAM...
+
+---[ Evidence Item 1 ]---
+Presented with: "The okapi, found in the Congo, has striped legs similar to a zebra but is most closely related to the giraffe."
+2025-08-19 21:39:24,709 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The okapi, found in the Congo, has striped legs similar to a zebra but is most closely related to the giraffe."
+2025-08-19 21:39:42,600 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00']
+2025-08-19 21:39:42,600 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 1.0000
+2025-08-19 21:39:42,604 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: ASSIMILATION (High Coherence: R=1.00 > 0.8)
+ACTION: Integrating evidence fully.
+2025-08-19 21:39:42,612 - INFO - phase_xiv_prototype -   -> Belief state updated. Total accepted evidence: 4
+--> RESULT: Agent behavior was 'ASSIMILATION'. Expected behavior was 'ADAPTATION'.
+
+---[ Evidence Item 2 ]---
+Presented with: "The aardvark is an African mammal that primarily eats ants and termites."
+2025-08-19 21:39:42,617 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The aardvark is an African mammal that primarily eats ants and termites."
+2025-08-19 21:40:01,054 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30', '0.30']
+2025-08-19 21:40:01,055 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.3000
+2025-08-19 21:40:01,060 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0000
+JUDGMENT: REJECTION (Low Coherence: R=0.30 < 0.4)
+ACTION: Rejecting evidence as a clear anomaly.
+--> RESULT: Agent behavior was 'REJECTION'. Expected behavior was 'ADAPTATION'.
+
+---[ Evidence Item 3 ]---
+Presented with: "The ostrich is a large, flightless bird native to Africa that eats plants and roots."
+2025-08-19 21:40:01,080 - INFO - phase_xiv_prototype - Calculating Continuous P-CRS for: "The ostrich is a large, flightless bird native to Africa that eats plants and roots."
+2025-08-19 21:40:20,019 - INFO - phase_xiv_prototype -   -> EPR Ensemble Scores: ['0.50', '0.50', '0.60', '0.50', '0.50', '0.50', '0.50', '0.50', '0.50', '0.50', '0.50']
+2025-08-19 21:40:20,019 - INFO - phase_xiv_prototype -   -> P-CRS Coherence (R) = Mean Score: 0.5091
+2025-08-19 21:40:20,023 - INFO - phase_xiv_prototype -   -> P-CRS Uncertainty (I) = Std Dev: 0.0287
+JUDGMENT: ADAPTATION (Moderate Coherence / Uncertainty Detected)
+ACTION: Triggering epistemic action (meta-cognitive query)...
+2025-08-19 21:40:21,585 - INFO - phase_xiv_prototype -   -> Meta-cognitive query response: 'no'
+  -> META-JUDGMENT: Negative. Rejecting evidence.
+--> RESULT: Agent behavior was 'ADAPTATION'. Expected behavior was 'ADAPTATION'.
+
+==================== [ COMPLETED TEST CASE: 2.3_High_Ambiguity_Stream ] ====================
+
+
+================================================================================
+                  All Test Cases Complete
+================================================================================

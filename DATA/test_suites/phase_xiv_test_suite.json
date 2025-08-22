@@ -1,0 +1,84 @@
+
+{
+  "suite_name": "FERE-CRS II, Phase XIV: Generalization & Robustness Test Suite",
+  "test_cases": [
+    {
+      "test_id": "1.1_Historical_Analysis",
+      "thrust": "Generalization",
+      "conceptual_context": "Factors contributing to the decline and fall of the Roman Republic.",
+      "priming_set": [
+        "Prolonged civil wars, such as those between Marius and Sulla, destabilized the state.",
+        "The rise of powerful, privately-funded armies loyal to individual generals rather than the state eroded senatorial authority.",
+        "Vast economic inequality and the displacement of small farmers led to widespread social unrest.",
+        "Political corruption and the breakdown of traditional republican values (mos maiorum) weakened its institutions."
+      ],
+      "evidence_stream": [
+        {"item": "The crossing of the Rubicon by Julius Caesar was a direct challenge to the Senate's power.", "expected": "ASSIMILATION"},
+        {"item": "The establishment of Constantinople as a new capital shifted the empire's focus eastward.", "expected": "ADAPTATION"},
+        {"item": "The codification of Roman law under Justinian I preserved legal traditions for centuries.", "expected": "ADAPTATION"},
+        {"item": "The invention of the printing press in the 15th century revolutionized European society.", "expected": "REJECTION"}
+      ]
+    },
+    {
+      "test_id": "1.2_Technical_Troubleshooting",
+      "thrust": "Generalization",
+      "conceptual_context": "Common causes of poor performance in Python web applications.",
+      "priming_set": [
+        "Inefficient database queries, particularly those lacking proper indexing, are a frequent bottleneck.",
+        "The Global Interpreter Lock (GIL) can limit the performance of multi-threaded, CPU-bound tasks.",
+        "Excessive memory usage due to data loading or object creation can lead to slow garbage collection cycles.",
+        "Blocking I/O operations for network requests or file access can halt the entire application."
+      ],
+      "evidence_stream": [
+        {"item": "An N+1 query problem in an ORM is a classic example of inefficient database access.", "expected": "ASSIMILATION"},
+        {"item": "High network latency between a server and a remote database can introduce significant delays.", "expected": "ADAPTATION"},
+        {"item": "A misconfigured load balancer can fail to distribute traffic evenly, overloading one application server.", "expected": "ADAPTATION"},
+        {"item": "The syntax of the Python `for` loop is defined in the language reference.", "expected": "REJECTION"}
+      ]
+    },
+    {
+      "test_id": "2.1_Rapid_Conceptual_Shift",
+      "thrust": "Robustness",
+      "conceptual_context": "Facts about large, herbivorous mammals found in Africa.",
+      "priming_set": [
+        "The African bush elephant is the largest land animal.",
+        "Giraffes are the tallest mammals and browse on treetops.",
+        "The white rhinoceros is a large grazer found on the savanna.",
+        "Hippos spend most of their day in water to keep cool."
+      ],
+      "evidence_stream": [
+        {"item": "The African buffalo is a large bovine and is not domesticated.", "expected": "ASSIMILATION"},
+        {"item": "Zebras are known for their distinctive black and white stripes.", "expected": "ASSIMILATION"},
+        {"item": "The Python programming language is known for its readable syntax.", "expected": "REJECTION"},
+        {"item": "A relational database stores data in structured tables.", "expected": "REJECTION"}
+      ]
+    },
+    {
+      "test_id": "2.2_Conceptual_Contradiction",
+      "thrust": "Robustness",
+      "conceptual_context": "Facts about large, herbivorous mammals found in Africa.",
+      "priming_set": [
+        "The African bush elephant is the largest land animal.",
+        "Giraffes are the tallest mammals and browse on treetops."
+      ],
+      "evidence_stream": [
+        {"item": "The African bush elephant is a small predator known for its speed.", "expected": "REJECTION"}
+      ]
+    },
+    {
+      "test_id": "2.3_High_Ambiguity_Stream",
+      "thrust": "Robustness",
+      "conceptual_context": "Facts about large, herbivorous mammals found in Africa.",
+      "priming_set": [
+        "The African bush elephant is the largest land animal.",
+        "Giraffes are the tallest mammals and browse on treetops.",
+        "The white rhinoceros is a large grazer found on the savanna."
+      ],
+      "evidence_stream": [
+        {"item": "The okapi, found in the Congo, has striped legs similar to a zebra but is most closely related to the giraffe.", "expected": "ADAPTATION"},
+        {"item": "The aardvark is an African mammal that primarily eats ants and termites.", "expected": "ADAPTATION"},
+        {"item": "The ostrich is a large, flightless bird native to Africa that eats plants and roots.", "expected": "ADAPTATION"}
+      ]
+    }
+  ]
+}

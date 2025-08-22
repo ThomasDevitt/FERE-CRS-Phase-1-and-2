@@ -1,0 +1,21 @@
+
+# Core Google AI library
+google-generativeai
+
+# For data manipulation and analysis
+pandas
+scikit-learn
+
+# For plotting and visualization
+matplotlib
+seaborn
+graphviz
+
+# For loading environment variables from the .env file
+python-dotenv
+
+#For statistical analysis
+scipy
+
+#For Mathematical function support
+numpy
